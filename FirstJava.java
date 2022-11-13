@@ -10,34 +10,20 @@ public class FirstJava {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        
+        
         Scanner sc = new Scanner (System.in);
-        System.out.println("Input any number :");
-        int num = sc.nextInt();
+        System.out.println("Enter the Base : ");
+        double base = sc.nextDouble();
+        System.out.println("Entere the Height :");
+        double height = sc.nextDouble();
         
-        if(num>0 && num<1000){
-            
-            
-            int sum = 0,tem = num, r ;
+        double area = 0.5 * (base*height);
         
-        while(tem!=0){
-        
-            r = tem%10;
-            sum = sum+r;
-            tem = tem/10;  
+        System.out.println("Area of tringle :"+ area);
        
-        }
-        
-        System.out.println("Sum of :"+ sum);
-            
-        }else{
-        
-        
-        
-        System.out.println("Num is not range 0 to 1000");
-        
-        
     
-        }
+        
     }
 }
     
