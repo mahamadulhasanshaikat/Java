@@ -28,8 +28,11 @@ public class FirstJava {
         int mult = a*b;
         System.out.println("The multiplication two number is " +mult);
         
-        int divi = a/b;
+        double divi = a/b;
         System.out.println("The division two number is "+divi);
+        
+        double avg = (a+b)/2;
+        System.out.println("The avarage two number is : "+ avg);
         
         
         
